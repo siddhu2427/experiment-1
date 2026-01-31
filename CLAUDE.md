@@ -71,11 +71,17 @@ DELETE /api/tasks/{id}         - Delete task
 
 > Update this section at the end of each session to track progress.
 
-### Session 1 - [Date]
-- **Status:** Starting Phase 1
-- **Completed:** Created CLAUDE.md, defined project plan
-- **Next:** Initialize Spring Boot project
-- **Notes:** -
+### Session 1 - Jan 31, 2026
+- **Status:** Phase 1 Complete
+- **Completed:**
+  - Created CLAUDE.md with project plan
+  - Set up Spring Boot + Kotlin project structure
+  - Configured build.gradle.kts with dependencies (web, jpa, h2, validation)
+  - Created TaskApiApplication.kt entry point
+  - Configured application.yml (H2 database, SQL logging)
+  - Verified build and app startup works
+- **Next:** Phase 2 - REST Basics (Create Task controller with CRUD endpoints)
+- **Notes:** App runs on localhost:8080, H2 console at /h2-console
 
 <!--
 Template for new sessions:
