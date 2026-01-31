@@ -83,6 +83,16 @@ DELETE /api/tasks/{id}         - Delete task
 - **Next:** Phase 2 - REST Basics (Create Task controller with CRUD endpoints)
 - **Notes:** App runs on localhost:8080, H2 console at /h2-console
 
+### Session 2 - Jan 31, 2026
+- **Status:** Phase 1 Review (Conceptual)
+- **Completed:**
+  - Reviewed Phase 1 concepts (Gradle plugins, dependencies, project structure)
+  - Deep dive on `@SpringBootApplication` annotation
+  - Explained Dependency Injection with real-world analogies
+  - Covered what Spring provides (object management, config, web server, database access)
+- **Next:** Phase 2 - REST Basics (Create Task model, controller, service)
+- **Notes:** No code written this session - focused on understanding fundamentals
+
 <!--
 Template for new sessions:
 
